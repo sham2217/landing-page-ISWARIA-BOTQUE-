@@ -1,0 +1,119 @@
+body, ul, li, h1, h2,a{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #3C2F2F;
+    font-style: Georgia, serif;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+header h1{
+    color: white;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 36px;
+}
+.banner{
+    position: relative;
+
+}
+.banner img{
+    max-width: 100%;
+}
+  
+
+nav{
+    background-color: #f4f4f4;
+    padding: 20px;
+    position: sticky;
+    top: 85px;
+}
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav li{
+    width: 25%;
+    display: inline-block;
+    font-size: 24px;
+}
+nav li a{
+    text-decoration: none;
+    color: #3C2F2F;
+}
+main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+main h3{
+    text-align: center;
+    font-size: 25px;
+    font-style: bold;
+}
+main p{
+    font-size: 20px;
+
+}
+
+.images{
+    text-align: center;
+    margin: 80px 0;
+    white-space: nowrap;
+}
+.images li{
+    display: inline-block;
+    width: 40%;
+    margin: 20px 5%;
+}
+.images li img{
+    max-width: 100%;
+}
+seemore h3{
+    font-weight: bold;
+}
+section.contact{
+    background: #f4f4f4;
+    text-align: center;
+    padding: 60px 20px;
+    color: #4b4b4b;
+}
+
+form input{
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 24px;
+    border-radius: 28px;
+    border: 4px solid white;
+}
+footer{
+    background: #3C2F2F;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+/* pseudo class */
+nav li a:hover{
+    text-decoration: underline;
+}
+.images li:hover{
+    position: relative;
+    top: -4px;
+}
+form input:focus{
+    border: 4px dashed #4b4b4b;
+    outline: none;
+}
+form input:valid{
+    border: 4px solid green;
+}
